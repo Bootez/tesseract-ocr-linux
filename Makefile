@@ -1,6 +1,11 @@
 CXX=g++
 LDFLAGS=-ltesseract -llept
-TARGET=tesseract
+TARGET=BasicExample                         \
+	   GetComponentImagesExample            \
+	   ResultIteratorExample                \
+	   OrientationAndScriptDetectionExample \
+	   IteratorExample
+
 RM=rm -f
 
 all:$(TARGET)
