@@ -1,5 +1,5 @@
 CXX=g++
-LDFLAGS=-ltesseract -llept
+LDLIBS=-ltesseract -llept
 TARGET=BasicExample                         \
 	   GetComponentImagesExample            \
 	   ResultIteratorExample                \
